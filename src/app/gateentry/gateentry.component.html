@@ -1,0 +1,147 @@
+
+<div>
+    <div>
+        <span class="d-flex justify-content-center fs-6 p-1 my-1">Gate Entry Process Initiation</span>
+    </div>
+    <div class="container" style="background-color: white; ">
+        <div class="row my-2">
+            <div class="col-4 my-2">
+                <img class="my-2" style="width: 400px; height: 241px;" src="assets/img/6541 1.png" alt="">
+            </div>
+            <div class="col-4 py-3">
+                <div class="input-group ">
+                    <label for="" class="input-group-text ib">Transaction type</label>
+                    <select class="form-select ipb" required>
+                        <option value="1">Transaction Import</option>
+                        <option value="2">Transaction Export</option>
+                    </select>
+                </div>
+                <div class="input-group  my-2">
+                    <label for="" class="input-group-text ib">Gate</label>
+
+                    <select class="form-select ipb" required>
+                        <option value="1">G1</option>
+                        <option value="2">G2</option>
+                        <option value="3">G3</option>
+                    </select>
+                </div>
+                <div class="input-group  my-2">
+                    <label for="" class="input-group-text ib">Plant</label>
+                    <select class="form-select ipb" required>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="input-group  my-2">
+                    <label for="" class="input-group-text ib">Vehicle number</label>
+                    <input type="text" class="form-control ipb" required>
+                </div>
+                <div class="input-group  my-2">
+                    <label for="" class="input-group-text ib">License number</label>
+                    <input type="text" class="form-control ipb" required>
+                </div>
+            </div>
+
+            <div class="col-4 my-2">
+                <div class="d-flex lip">
+                    <div>
+                        <img style="width: 70px; height: 70px;" src="assets/img/img1.png" alt="">
+                    </div>
+                    <div class="input-group  my-2">
+                        <label for="" class="input-group-text ib">PO number</label>
+                        <input type="text" class="form-control ipb">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Items Start -->
+        <div>
+            <p class="fs-6 ">Order Items</p>
+        </div>
+        <div>
+            <div class="mb-6">
+                <div class="card-body pt-0">
+                    <table class="table">
+                        <thead style="background: #EFF0F7 !important; ">
+                                <tr>
+
+                                    <th scope="col"><input type="checkbox"></th>
+                                    <th scope="col">PO.Line</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">PO Quantity</th>
+                                    <th scope="col">UOM</th>
+                                    <th scope="col">Unit Price</th>
+                                    <th scope="col">Net Value</th>
+                                    <th scope="col">Received</th>
+
+                                </tr>
+
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="col"><input type="checkbox"></th>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td><input type="text" style="width: 80px;"></td>
+                            </tr>
+
+                            <!-- Dummy -->
+                            <tr>
+                                <th scope="col"><input type="checkbox"></th>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td><input type="text" style="width: 80px"></td>
+                            </tr>
+                            <tr>
+                                <th scope="col"><input type="checkbox"></th>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td><input type="text" style="width: 80px;"></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- Items End -->
+
+        <div class="row d-flex">
+            <div class="col-4">
+                <div class="input-group  my-2 p-3">
+                    <label for="" class="input-group-text ib" style="width: 30% !important;">Bar code number</label>
+                    <input type="text" class="form-control ipb" style="width: 10 !important;" required>
+                </div>
+            </div>
+            <div class="col-4">
+                <div>
+                    <div style="font-size: 13px;">
+                        Add Comment
+                    </div>
+                    <textarea name="" id="" cols="50" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="col-4 d-flex justify-content-end align-items-end">
+                <div class="d-flex p-3">
+                    <button type="button" class="btn btn-light mx-2">Cancel</button>
+                    <button type="button" class="btn btn-primary mx-2">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

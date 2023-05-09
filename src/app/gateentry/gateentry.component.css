@@ -1,0 +1,45 @@
+.ib {
+    background-color: #FCFCFC;
+    width: 35% !important;
+    height: 40px;
+    width: 150px;
+
+    font-size: 13px;
+    line-height: 27px;
+}
+
+.r3ib {
+    background-color: #FCFCFC;
+    width: 30% !important;
+    height: 40px;
+    width: 150px;
+}
+
+.ipb {
+    height: 40px;
+    width: 200px;
+}
+
+.lip {
+    margin-top: 45px;
+}
+
+textarea {
+    resize: none;
+    border: 0.823729px solid #DDDDDD;
+    border-radius: 2.74576px;
+
+}
+
+textarea:focus {
+    outline: none;
+    border-width: 1;
+}
+
+.rip {
+    height: 42px;
+    width: 137px;
+    left: 8px;
+    top: 11px;
+    border-radius: 2.4067797660827637px;
+}
